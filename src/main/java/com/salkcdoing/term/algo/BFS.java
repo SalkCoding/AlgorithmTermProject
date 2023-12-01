@@ -1,6 +1,5 @@
 package com.salkcdoing.term.algo;
 
-
 import com.salkcdoing.term.data.Cell;
 import com.salkcdoing.term.data.CellState;
 import com.salkcdoing.term.data.Point;
