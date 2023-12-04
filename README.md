@@ -66,8 +66,8 @@ Let us call the heuristic weight function $f(x)$ and assume that it consists of 
 At this time, $g\left( x \right)$ is the Euclidean distance from the start node to the x node, and h\left( x \right) is the Euclidean distance from the x node to the destination node.
 
 Euclidean distance from $\left( x_1, y_1 \right)$ to $\left( x_2, y_2 \right)$ = $\sqrt{\left( x_1-x_2 \right)^2 + \left( y_1-y_2 \right)^2}$
-Thus, $$ f\left( x \right) = g\left( x \right) + h\left( x \right) $$
-$$f\left( x \right) = \sqrt{\left( x_1 - x_2 \right)^2 + \left( y_1 - y_2 \right)^2} + \sqrt{\left( x_2 - x_3 \right)^2+\left( y_2 - y_3 \right)^2} $$
+Thus, $f\left( x \right) = g\left( x \right) + h\left( x \right)$
+$$f\left( x \right) = \sqrt{\left( x_1 - x_2 \right)^2 + \left( y_1 - y_2 \right)^2} + \sqrt{\left( x_2 - x_3 \right)^2+\left( y_2 - y_3 \right)^2}$$
 
 ````
 A* (G, s) //Where G is the graph and s is the source node.
@@ -92,8 +92,8 @@ Let us call the heuristic weight function $f(x)$ and assume that it consists of 
 At this time, $g\left( x \right)$ is the Manhattan distance from the start node to the x node, and h\left( x \right) is the Manhattan distance from the x node to the destination node.
 
 Manhattan distance from $\left( x_1, y_1 \right)$ to $\left( x_2, y_2 \right)$ = $\left| x_1 - x_2 \right| + \left| y_1 - y_2 \right|$ <br>
-Thus, $$f\left( x \right) = g\left( x \right) + h\left( x \right)$$
-$$f\left( x \right) = \left{ \left| x_1 - x_2 \right| + \left| y_1 - y_2 \right| \right} + \left{ \left| x_2 - x_3 \right| + \left| y_2 - y_3 \right| \right} $$
+Thus, $f\left( x \right) = g\left( x \right) + h\left( x \right)$
+$$f\left( x \right) = \left( \left| x_1 - x_2 \right| + \left| y_1 - y_2 \right| \right) + \left( \left| x_2 - x_3 \right| + \left| y_2 - y_3 \right| \right)$$
 
 
 ````
